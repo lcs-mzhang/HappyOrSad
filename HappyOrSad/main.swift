@@ -37,8 +37,7 @@ for individualCharacter in input
     {
         sad += 1
     }
-    
-    print(individualCharacter)
+//    print(individualCharacter)
 }
 
 if happy > sad
@@ -51,7 +50,7 @@ else if happy < sad
 }
 else if happy == 0 && sad == 0
 {
-    print("None.")
+    print("No emojis dectected.")
 }
 else if happy == sad
 {
