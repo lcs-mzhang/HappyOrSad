@@ -16,8 +16,8 @@ var sad = 0
 //Make sure input is not nil
 guard let input = rawInput else
 {
-        //error
-        exit(9)
+    //error
+    exit(9)
 }
 
 
@@ -27,32 +27,36 @@ print("You said: \(input)")
 //print(input)    //non-optional
 
 
-for individualCharacter in input
-{
-    if individualCharacter == "😀" || individualCharacter == "😄" || individualCharacter == "😊" || individualCharacter == "🙂"
-    {
-        happy += 1
-    }
-    else if individualCharacter == "😔" || individualCharacter == "😕" || individualCharacter == "🙁" || individualCharacter == "☹️"
-    {
-        sad += 1
-    }
-//    print(individualCharacter)
-}
+//for individualCharacter in input
+//{
+//    if individualCharacter == "😃" || individualCharacter == "😄" || individualCharacter == "😊" || individualCharacter == "🙂"
+//    {
+//        happy += 1
+//    }
+//    else if individualCharacter == "😔" || individualCharacter == "😕" || individualCharacter == "🙁" || individualCharacter == "☹️"
+//    {
+//        sad += 1
+//    }
+////    print(individualCharacter)
+//}
+
+v
 
 if happy > sad
 {
-    print("The message is happy.")
+    print("happy")
 }
 else if happy < sad
 {
-    print("The message is sad.")
+    print("sad")
 }
 else if happy == 0 && sad == 0
 {
-    print("No emojis dectected.")
+    print("none")
 }
 else if happy == sad
 {
-    print("Human emotion confuse robot. Beep boop.")
+    print("unsure")
 }
+
+
