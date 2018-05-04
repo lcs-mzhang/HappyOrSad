@@ -27,20 +27,18 @@ print("You said: \(input)")
 //print(input)    //non-optional
 
 
-//for individualCharacter in input
-//{
-//    if individualCharacter == "😃" || individualCharacter == "😄" || individualCharacter == "😊" || individualCharacter == "🙂"
-//    {
-//        happy += 1
-//    }
-//    else if individualCharacter == "😔" || individualCharacter == "😕" || individualCharacter == "🙁" || individualCharacter == "☹️"
-//    {
-//        sad += 1
-//    }
-////    print(individualCharacter)
-//}
-
-v
+for individualCharacter in input
+{
+    if individualCharacter == "😃" || individualCharacter == "😄" || individualCharacter == "😊" || individualCharacter == "🙂"
+    {
+        happy += 1
+    }
+    else if individualCharacter == "😔" || individualCharacter == "😕" || individualCharacter == "🙁" || individualCharacter == "☹️"
+    {
+        sad += 1
+    }
+//    print(individualCharacter)
+}
 
 if happy > sad
 {
